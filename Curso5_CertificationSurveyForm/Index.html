@@ -1,0 +1,41 @@
+<!DOCTYPE>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" /> 
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This is a Robot Page of a Survey Form</p>
+    <form id="survey-form">
+      <label id="name-label">Enter your Name Here: <input id="name" type="text" placeholder="Pedro Lozada" required/>
+      </label>
+      <label id="email-label">Enter your Email Here: <input id="email" type="email"placeholder="SantiagoMiranda@.com" required/>
+      </label>
+      <label id="number-label">Enter your Number Here: <input id="number" type="number"placeholder="25" min="5" max="100" required/>
+      </label>
+      <label id="select-label">
+      <select id="dropdown">
+        <dropdown for="survey-form">
+          <option value="X">X</option>
+          <option value="Y">Y</option>
+        </dropdown>
+      </select>
+      </label>
+      <label for="survey-form"><input name="Op" for="survey-form" value="Opcion1" type="radio" class="inline" checked></input>Opcion 1
+      </label>
+      <label for="survey-form"><input name="Op" for="survey-form" value="Opcion2" type="radio" class="inline" checked></input>Opcion 2
+      </label>
+      <label>This is a Checkbox: <input type="checkbox" id="cbox1" value="C1">C1</input> 
+      <input type="checkbox" id="cbox2" value="C2">C2</input>
+      </label>
+      <label for="survey-form">Provide extra info:
+          <textarea id="xInfo" name="bio" rows="3" cols="30" placeholder="Lorem ipsum..."></textarea>
+      </label>
+      <input id="submit" type="submit" value="Submit" />
+
+    </form> 
+
+  </body>   
+</hmtl> 
